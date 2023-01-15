@@ -107,33 +107,39 @@
     display: grid;
     column-gap: 8px;
     row-gap: 8px;
-    grid-template-columns: 140px 1fr 1fr;
-    grid-template-rows: 46px 36px 36px 36px 36px 36px 1fr;
+    grid-template-columns: 140px 1fr 46px;
+    grid-template-rows: 46px 1fr;
     height: 100%;
 }
 
-.item-sheet-section-portrait {
+.item-sheet-section-name {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 7;
-}
-
-.item-sheet-section-name {
-    grid-column-start: 2;
-    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
 .item-sheet-section-tabs {
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 7;
-    grid-row-end: 7;
-
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     display: grid;
     grid-template-rows: 36px 1fr;
+}
+
+.item-sheet-section-portrait {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item-sheet-section-equipement {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 /******************************************************************************

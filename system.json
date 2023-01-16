@@ -1,7 +1,7 @@
 {
-  "id": "cairn",
-  "title": "Cairn",
-  "description": "Cairn for FoundryVTT",
+  "id": "cairn-alternative",
+  "title": "Cairn-alternative",
+  "description": "alternative sheet for object",
   "version": "0.10.28",
   "compatibility": {
     "minimum": "10",

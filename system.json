@@ -1,7 +1,7 @@
 {
-  "id": "cairn",
-  "title": "Cairn",
-  "description": "Cairn for FoundryVTT",
+  "id": "cairn_alt",
+  "title": "Cairn Alt",
+  "description": "Cairn Alt for FoundryVTT",
   "version": "0.10.28",
   "compatibility": {
     "minimum": "10",
